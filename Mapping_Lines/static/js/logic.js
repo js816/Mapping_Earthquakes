@@ -2,7 +2,7 @@
 console.log("working for multiples");
 
 // Create the map object with a center and zoom level.
-let map = L.map('mapid').setView([37.6213, -122.3790], 5);
+let map = L.map('mapid').setView([43.6767, -79.6306], 4);
 
 // Coordinates for each point to be used in the line.
 let line = [
@@ -16,6 +16,21 @@ let line = [
 L.polyline(line, {
     color: "yellow"
   }).addTo(map);
+
+// Coordinates for second airport line
+let line2 = [
+    [40.6397, -73.7789],
+    [30.1933, -97.6682],
+    [38.8475, -94.7375],
+    [43.6767, -79.6306]
+];
+
+// Create a polyline using the line2 coordinates and make it a blue dashed line
+L.polyline(line2, {
+    color: "blue",
+    // Adapting code from here for dash style:  https://gis.stackexchange.com/questions/204121/how-to-set-dashed-line-on-leaflet
+    dashArray: '10, 10'
+}).addTo(map);
 
 // Get data from cities.js
 let cityData = cities;
