@@ -2,11 +2,11 @@
 
 ## Purpose
 
-The purpose of this project was to develop interactive mapping that visualizes earthquake data from the last week.  Additionally tectonic plates are shown to help visitors see their relationship to earthquakes.
-
 The head of the Earthquake Disaster Response Team (EDRT) wanted to develop a website that would allow users to easily see recent earthquake activity and learn additional details about the quakes.
 
-I was assigned a mentor and we worked through the process.  After developing the initial maps, I customized additional features and options for the website.
+The purpose of this project was to develop interactive mapping that visualizes earthquake data from the last week.  Additionally, tectonic plates are shown to help visitors see their relationship to earthquakes.
+
+I was assigned a mentor and she walked me through the process of creating the website.  After developing the initial maps, I customized additional features and options for the website.
 
 # Results
 
@@ -14,7 +14,7 @@ I was assigned a mentor and we worked through the process.  After developing the
 
 When the website initially loads, all earthquakes from the last week are shown.  This data is obtained from the United States Geological Survey and is updated each time the website is loaded.  The tectonic plates are also displayed allowing users to see the high proportion of quakes near the plates.  
 
-The size of the marker for each event varies based upon the magnitude of the earthquake.  Additionally, each marker is color coded to indicate the magnitude and the legend at the bottom right allows users to compare various magnitudes.  
+The size of the marker for each event varies based upon the magnitude of the earthquake.  The stronger the earthquake, the larger the circle.  Additionally, each marker is color coded to indicate the magnitude and the legend at the bottom right allows users to compare various magnitudes.  The stronger the earthquake, the darker the color. 
 
 
 ![Initial_map](https://user-images.githubusercontent.com/82730954/126830080-a7a49760-3e81-48b4-851b-8fe43574570e.PNG)
