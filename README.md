@@ -1,3 +1,5 @@
+# Mapping Earthquakes
+
 # Overview of the project 
 
 ## Purpose
